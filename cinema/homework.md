@@ -162,7 +162,7 @@ Debi Skea
 
 7.  Melinda Matthews has decided to hijack our movie evening, Remove her from the table of people.
 
- INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '00.00');
+ DELETE FROM people WHERE name = 'Melinda Matthews' ;
 
  name        
 -------------------
